@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/f0f632e4f7.js" crossorigin="anonymous"></script>
+ 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="list">
+<ul>
+  <li >Collections</li>
+      <li > Men</li>
+      <li >Women</li>
+      <li >About</li>
+      <li >Contact</li>
+</ul>
+  </div>
+<header>
+
+  <nav class="navigation">
+    <span class="bars"><i class="fas fa-bars"></i></span>
+    <span class="quit-list">x</span>
+    <div class="main-nav">
+    <h1>Sneakers</h1>
+    <ul>
+      <li class="nav1">Collections</li>
+      <li class="nav2"> Men</li>
+      <li class="nav3">Women</li>
+      <li class="nav4">About</li>
+      <li class="nav5">Contact</li>
+    </ul>
+    </div>
+    <div class="sub-nav">
+    <span class="product-counter"></span><img class="cart" src="icon-cart.svg" width="25px" height="25px">
+    <img src="image-avatar.png" width="50px" height="50px">
+    </div>
+  </nav>
+</header>
+<div class="mycart">
+ <h3>cart</h3>
+ <p class="empty" >your cart is empty</p>
+ 
+</div>
+<span onclick=" deleteone() " class="trash"><i class="fas fa-trash-alt"></i></span>
+<span class="close"><i class="fas fa-times"></i></span>
+<div class="poped-out">
+  
+  <div class="poped-images">
+   
+  <div class="poped-main-img">
+     <div class="angel-left"><span  ><i class="fa fa-angle-left"></i></span></div>
+   <img src="image-product-1.jpg" class="mi">
+   <div class="angel-right" ><span ><i class="fas fa-angle-right"></i></span></div>
+   </div>
+   
+   <div class="poped-secondory-imgs">
+   <div  class="poped-img-1"><img src="image-product-1.jpg" ></div>
+   <div class="poped-img-2"><img  src="image-product-2.jpg"></div>
+   <div class="poped-img-3"><img  src="image-product-3.jpg"></div>
+   <div class="poped-img-4"><img src="image-product-4.jpg" ></div>
+ </div>
+   </div>
+  </div>
+  <div class="overlay"></div>
+<div class="main">
+  <div class="images">
+ <div class="main-img">
+  <div class="angel-left1"><span  ><i class="fa fa-angle-left"></i></span></div>
+  <img src="image-product-1.jpg" class="mi1">
+  <div class="angel-right1" ><span ><i class="fas fa-angle-right"></i></span></div>
+  </div>
+  <div class="secondory-imgs">
+  <div  class="img-1"><img src="image-product-1.jpg" style="margin-left: 0;"></div>
+  <div class="img-2"><img  src="image-product-2.jpg"></div>
+  <div class="img-3"><img  src="image-product-3.jpg"></div>
+  <div class="img-4"><img src="image-product-4.jpg" style="margin-right: 0;"></div>
+</div>
+  </div>
+
+ 
+<div class="description">
+<p style="color: hsl(26, 100%, 55%);">Sneaker Company</p>
+<h1> Fall Limited Edition Sneakers</h1>
+<p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+<div class="price">
+<div style="display: flex;align-items: center;">  <h1 class="price-one">  $125.00</h1>
+<h3> 50%</h3></div>
+
+<div><p style="margin-top: -10px;text-decoration: line-through;">$250.00</p></div>
+
+</div>
+
+<div class="purchess">
+<div class="pur" style="justify-content: space-around;">
+<button class="mines">-</i></button>
+<span class="num" style="color: black;">0</span>
+<button class="add">+</button>
+</div>
+<div id="pur1" class="pur" ><button class="addtocart" ><i class="fas fa-shopping-cart"></i> add to cart</button></div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
