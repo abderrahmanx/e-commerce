@@ -170,7 +170,7 @@ color:hsl(26, 100%, 55%) ;
      margin-left: -2vw;
      display: flex;
      flex-direction: row;
-     align-items: center;
+    justify-content: center;
  }
  .mines{
     
@@ -537,7 +537,7 @@ z-index: 200;
     flex-wrap: wrap;
 }
 .description{
-    min-width: 250px;
+    min-width: 300px;
     width: 80vw;
 margin-top: 10vh;
 }
@@ -611,14 +611,15 @@ padding: 5px;
  }
  .purchess{
 display: flex;
-
 flex-direction: column;
-margin-left:20vw;
 width:80vw ;
+margin-left:15px;
  }
  .purchess div{
+    
     margin-top: 30px;
     width: 100%;
+   
      }
 .pur{
     display: flex;
